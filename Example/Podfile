@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftFlexBox_Example' do
+  pod 'SwiftFlexBox', :path => '../'
+
+  target 'SwiftFlexBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
